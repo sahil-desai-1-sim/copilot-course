@@ -1,2 +1,33 @@
-obj
-bin
+obj/
+bin/
+.specify/extensions/
+
+# .NET build artifacts
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Test and coverage artifacts
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Package and logs
+packages/
+*.log
+
+# Environment files
+.env
+.env.*
+
+# OS noise
+.DS_Store
+Thumbs.db
